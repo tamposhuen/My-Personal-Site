@@ -5,69 +5,140 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tina's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="15">
-    <tr>
-      <td>
-
-        <img
-          src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/17424653_10100819344997922_3221372805833194888_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=y7q-h_Z4u8IAX_pDxJA&_nc_ht=scontent-sjc3-1.xx&oh=a6dbbaee66b1eee861e67d2d3ac7b47d&oe=602E9C26"
-          height="150">
-      </td>
-
-      <td>
-
-        <h1>Tina Tam</h1>
-        <em>
-          <dt>a housewife learning to code</dt>
-        </em>
-        <p>Chinese married to a Korean husband, I am raising a third culture child, who hopefully will be able to speak
-          three
-          languages. Born in Hong Kong, raised on Guam, I lived in the Bay Area all of my adult life. Living so closed
-          to
-          the
-          Scilicon Valley, it is inevitable that I have been touched by the tech industry in all aspects of my life. It
-          is
-          also unevitable that my career in hospitality/meetings had sent me on furlough, as a result of this Covid
-          pandemic. Thus, I am opening another door and braving myself into a whole new world of coding.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size="5">
-  <h3>Goal</h3>
-  Build something that enables multi cultural families to thrive
-  <h3>Education</h3>
-  <ul>
-    <li>Udemy</li>
-    <li>University of San Francisco</li>
-    <li>City College of San Francisco</li>
-    <li>Academy of Our Lady of Guam</li>
-  </ul>
-  <h3>I am learning...on Udemy</h3>
-  <table cellspacing="20">
-    <tr>
-      <td>HTML</td>
-      <td>⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>Express</td>
-      <td>⭐️⭐️⭐️</td>
-    </tr>
+  <div class="title">
+    <img class="top-cloud" src="CSS - My Site Images/cloud.png" alt="cloud">
+    <h1>Tina Tam</h1>
+    <h3>a housewife learning to code.</h3>
+    <img class="mountain" src="CSS - My Site Images/mountain.png" alt="mountain">
+    <!-- <img src="images/background.jpg" alt="background"> -->
+    <img class="bottom-cloud mountain" src="CSS - My Site Images/cloud.png" alt="cloud">
+  </div>
 
 
-  </table>
+  <!-- <hr size="5"> -->
+  <div class="description">
+    <img class="profile"
+      src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/17424653_10100819344997922_3221372805833194888_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=y7q-h_Z4u8IAX_pDxJA&_nc_ht=scontent-sjc3-1.xx&oh=a6dbbaee66b1eee861e67d2d3ac7b47d&oe=602E9C26"
+      height="150">
+    <h4>Chinese married to a Korean husband, I am raising a third culture child and trying to expose her to the best of
+      all
+      the worlds. Born in Hong Kong and raised on Guam, I lived in the Bay Area all of my adult life. Living so closed
+      to
+      Scilicon Valley, it is inevitable that I have been touched by the tech industry in all aspects of my life. It is
+      also inevitable that my career in meetings and conventions had sent me on furlough, due to the Covid
+      pandemic.
+      So, here I am, opening the door and braving myself into a brand new world of coding.</p>
+    </h4>
+  </div>
+  <hr>
+  <!-- <hr size="5"> -->
+  <!-- <div class="container">
+    <a href="/index.html" class="properties">skills</a>
+    <a href="/index.html" class="properties">hobbies</a>
+    <a href="/index.html" class="properties">values</a>
+  </div> -->
 
-  <a href="contactMe.html">contact me</a>
+
+  <div class="container">
+    <div>
+      <img class="img-properties" src="images/skills.jpg">
+    </div>
+    <div>
+      <h3 class="details">My skills.</h3>
+      <p class="details">I am forever grateful to technologies. My first coding experience is with Hack Reactor's prep
+        program, but it wasn't enough for me to get into this prestigious school of coding. With my friend's suggestion,
+        I
+        turned to Udemy. I have finished the web development course by Cole Steele and Angela Yu and learned all the
+        basics to start off in this industry. Hopefully, I will will be able to complete the a coding
+        boot camp and really kick start my programming career. Here are the skills I am working on:
+      </p>
+      <ul>
+        <li>html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>React</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div>
+      <img class="img-properties" src="images/hobbies.jpg">
+    </div>
+    <div>
+      <h3 class="details">My hobbies.</h3>
+      <p class="details">I love eating, therefore, I love cooking. Since the pandemic, I have been cooking a bunch of
+        random stuff that I have never attempted to cook before, from scumptious homemade pho to the perfectly crisp
+        choux
+        au Craqulin. The love of outdoor activies have also kept me busy. I don't mean to brag, but the geographic
+        landscape and weather in the Bay Area, makes the outdoor much more fun. I love taking my daughter to explore the
+        beaches, mountains, and woods. The snowy Sierra slope is one of my favorite spots. Nothing beats the joy of
+        sliding down the
+        slushy slope with the gorgeous Lake Tahoe as the backdrop. On any given weekend, I would be on my bike trailing
+        the
+        bay or sit along one of the coastal piers dangling my fishing pole with my daughter and husband.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div>
+      <img class="img-properties" src="images/values.jpg">
+    </div>
+    <div>
+      <h3 class="details">My values.</h3>
+      <p class="details">Ever since I gave birth to my daughter, nothing
+        means more to me than family. Growing up as an immigrant, I lived in a household that consists of three
+        families,
+        that's 6 adults and 8 kids, plus grandparents as occasional long term visitors. I know all about the importance
+        of
+        family, but when I turn the age for college, all I wanted is to be away from my family. Now that I am double the
+        age
+        since I left home, I wished I could have live closer to home, so my daughter could experience what I had
+        experienced
+        growing up --- it wasn't easy for 14 people to live in a house with three bedrooms.
+        To compensate not
+        having my family
+        around, I started to focus on my daughter's educational development and also my own development. During the
+        months
+        when school was canceled (due to covid), I became my daugther's teacher. I was so grateful for this percious
+        opportunity to see her
+        grow during the most important age in her life. Not only do I see her grow, but I also grow with her. I took a
+        Korean class, so I can teach her Korean. I am learning to code now, hopefully one day I can steer her into a
+        path
+        of the future.</p>
+    </div>
+  </div>
+  <hr>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/tina-po-shuen-tam-b1590823/"><img class="icon" src="images/in.png"
+        alt="mylinkedin">
+    </a>
+    <a href="https://www.facebook.com/tina.tam">
+      <img class="icon" src="images/fb.png" alt="myfacebook">
+    </a>
+    <a href="https://www.instagram.com/tamposhuen/">
+      <img class="icon" src="images/gram.png" alt="mygram">
+    </a>
+
+    <div class="footnote">Icons made by <a style="font-size: 10px;" href="https://www.freepik.com"
+        title="Freepik">Freepik</a> from <a style="font-size: 10px;" href="https://www.flaticon.com/"
+        title="Flaticon">www.flaticon.com</a></div>
+
+
+  </footer>
 </body>
+
+
 
 </html>
