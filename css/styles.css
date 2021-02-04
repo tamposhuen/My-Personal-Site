@@ -6,48 +6,46 @@ margin: 0;
   font-family: 'Roboto', sans-serif;
   width: 100%;
 }
-
+/* fonts */
 
 h1, h3, p, ul{
   color: #62b6cb;
   margin: 0 auto 0 auto;
   line-height: 1.5;
+  padding: 20px;
+}
+li{
+  padding-left: 15px;
 }
 
 h1{
   font-size: 3rem;
   font-weight: bold;
   line-height: 2;
+  position: relative;
+  z-index: 1;
 }
-
+i{
+  color: #f6fff8;
+  font-size: 2rem;
+padding: 5px;
+}
 h4,h3{
   color: darkseagreen;
   line-height: 1.5;
+
 }
-.profile{
-  border-radius: 100% ;
-margin: 20px;
+.title h3{
+  position: relative;
+  z-index: 1;
 }
 
-.container h3{
-  padding-bottom: 10px;
-}
-
-hr{
-  border-top: 5px dotted #38a3a5;
-  width: 50%;
-}
-
-ul{
-  list-style: circle;
-  margin: 0;
-  padding: 0;
-}
+/* title */
 .title {
   background-image: url("background.jpg");
   margin:0em ;
 width: 100%;
-height: 500px;
+height: 561px;
 background-size: cover;
 background-position: top;
 background-image: linear-gradient(#f6fff8 60%,#38a3a5);
@@ -72,11 +70,33 @@ float: left;
   height: 20px;
   float:right;
 }
+/* profile */
+.profile{
+  border-radius: 100% ;
+margin: 20px;
+}
 
 .description{
   text-align: center;
   width: 40%;
   margin: 50px 30% 70px 30%;
+}
+
+hr{
+  border-top: 5px dotted #38a3a5;
+  width: 50%;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* my .properties */
+
+.container h3{
+  padding-bottom: 10px;
 }
 
 .properties{
@@ -98,28 +118,29 @@ float: left;
   text-align: left;
   padding: 20px;
 display:grid;
-grid-template-columns: 220px 500px;
+grid-template-columns: 20% 80%;
 width: 70%;
 }
 
 .img-properties{
-  height: 200px;
-  margin-right:20px;
+  width: 100%;
   border-radius: 100%;
 }
 
-
+/* footer */
 footer{
   text-align: center;
 background-color: #38a3a5;
 width: 100%;
-height: 50px;
+height: 60px;
 margin: 0;
 padding: 0;
 position: fixed;
 bottom: 0px;
 }
-
+a{
+  padding: 5px;
+}
 .icon{
   margin: 5px 10px;
 }
@@ -142,3 +163,4 @@ a{
     margin:0
   }
 }
+
